@@ -15,7 +15,7 @@ __author__ = 'Albert Weichselbraun, Roger Waldvogel'
 __author_email__ = 'albert.weichselbraun@fhgr.ch, roger.waldvogel@fhgr.ch'
 __copyright__ = '2019-2020 Albert Weichselbraun, Roger Waldvogel'
 __license__ = 'Apache-2.0'
-__version__ = '1.1.0'
+__version__ = '1.1.1-SNAPSHOT'
 __status__ = 'Prototype'
 
 try:

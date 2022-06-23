@@ -176,7 +176,7 @@ def extract_posts(html, url):
     candidate_xpaths = _get_xpaths_candidates(text_sections, dom, tree, reference_text)
 
     if not candidate_xpaths:
-        logging.warning("Couldn't identify any candidate posts for forum", url)
+        logging.warning("Couldn't identify any candidate posts for forum {}".format(url))
         return result
 
     # obtain anchor node
